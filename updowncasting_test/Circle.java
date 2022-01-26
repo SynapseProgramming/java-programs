@@ -7,12 +7,17 @@ public class Circle {
   }
   @Override
   public boolean equals(Object obj) {
-    System.out.println("equals(Object) called");
+    System.out.println("equals(Object) called yes man");
     if (obj == this) {
       return true;
     }
     if (obj instanceof Circle) {
       Circle circle = (Circle) obj;
+
+    System.out.println("This is a circle indeed!");
+
+    boolean check=circle.centre.equals(centre);
+    System.out.println("This is check value: "+ check);
       return (circle.centre.equals(centre) && circle.radius == radius);
     } else {
       return false;
@@ -22,5 +27,8 @@ public class Circle {
     System.out.println("equals(Circle) called");
     return circle.centre.equals(centre) && circle.radius == radius;
   }
+  public void say(){
+      System.out.println("This is called from an instance of circle");
+    }
 }
 
