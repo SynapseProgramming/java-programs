@@ -22,5 +22,3 @@ public class Circle extends Shape {
   private double y;
   private double r;
 }
-  // TODO: add in another shape. ALso add in a main class to test out writing a generic shape
-  // function which has access to the various different getArea functions.
