@@ -8,6 +8,7 @@ In this case, it would provide the definition of the abstract getarea function.
 public class Circle extends Shape {
   // initialise the circle first
   Circle(double x, double y, double r) {
+    super(69);
     this.x = x;
     this.y = y;
     this.r = r;
