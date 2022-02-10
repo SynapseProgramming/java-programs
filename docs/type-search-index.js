@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"ArrivalShopEvent"},{"p":"<Unnamed>","l":"Customer"},{"p":"<Unnamed>","l":"DepartureShopEvent"},{"p":"<Unnamed>","l":"ServiceBeginShopEvent"},{"p":"<Unnamed>","l":"ServiceEndShopEvent"},{"p":"<Unnamed>","l":"Simulator"},{"p":"<Unnamed>","l":"WaitEvent"}]
