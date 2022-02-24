@@ -1,0 +1,7 @@
+in the combination of try, catch and finally,
+we can have multiple catch statements, whereby a particular catch statement 
+would be executed when the corresponding exception is thrown.
+
+Having a exception block which captures all exceptions should be avoided.
+
+
