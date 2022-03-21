@@ -5,5 +5,6 @@
 @FunctionalInterface
 interface Transformer<T, U> {
 
-  U transform(T x, T y);
+  //note: changed from two arguments to 1 argument to test out  Curry class
+  U transform(T x);
 }
