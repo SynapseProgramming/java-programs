@@ -21,7 +21,7 @@ public class InfiniteList<T> {
   private Producer<InfiniteList<T>> tail;
 
   // constructor of InfiniteList
-  private InfiniteList(Producer<T> h, Producer<InfiniteList<T>> t) {
+  public InfiniteList(Producer<T> h, Producer<InfiniteList<T>> t) {
     this.head = h;
     this.tail = t;
   }
