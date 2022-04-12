@@ -32,6 +32,19 @@ public class Fib {
     Fib.second = sum;
     return ans;
   }
+  // write function which returns the nth fibonacci number
+  // assuming starting from fib numbers 1,1
+  public static int nth(int x) {
+
+    InfiniteList<Integer> fibs = Fib.fib(1, 1);
+    if (x == 1) {
+      return fibs.getHead();
+    }
+    for (int i = 1; i < x; i++) {
+      fibs = fibs.getTail();
+    }
+    return fibs.getHead();
+  }
 
   public static InfiniteList<Integer> fib(int f, int s) {
     Fib.first = f;
@@ -43,5 +56,4 @@ public class Fib {
           return new InfiniteList<Integer>(() -> s, () -> Fib.comp());
         });
   }
-  
 }
